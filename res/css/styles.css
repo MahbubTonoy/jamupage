@@ -6,220 +6,241 @@ https://www.fiverr.com/mahbubtonoy
 
 /* universal styles  start*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 /* universal styles  end*/
 
 /* body setting start */
 html, body {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  font-size: 10px;
-  background: #faced3;
-  color: #f0f0f0;
-  font-family: 'Open Sans', sans-serif;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    background: linear-gradient(-45deg, #faced3, #ffc0c0, #ffbebe, #f0f0f0);
+    background-size: 400% 400%;
+    -webkit-animation: lovely 15s ease infinite;
+    -moz-animation: lovely 15s ease infinite;
+    -o-animation: lovely 15s ease infinite;
+    animation: lovely 15s ease infinite;
+    color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+@-webkit-keyframes lovely {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes lovely {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes lovely {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes lovely {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 /* body setting end */
 
 /* background  */
-#snow{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 150%;
-  width: 150%;
-  background-image: url('background_image/heart-1_white.png'), url('background_image/heart_white.png'), url('background_image/heart-2_white.png');
-  animation: snow 1000s linear infinite;
-  -webkit-animation: snow 1000s linear infinite;
-  -moz-animation: snow 1000s linear infinite;
-  -ms-animation: snow 1000s linear infinite;
-  transform: translate3d(0, 0, 0) scale(1.8);
-  -webkit-transform: translate3d(0, 0, 0) scale(1.8);
-  -moz-transform: translate3d(0, 0, 0) scale(1.8);
-  -ms-transform: translate3d(0, 0, 0) scale(1.8);
-  -o-transform: translate3d(0, 0, 0) scale(1.8);
+#snow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 150%;
+    width: 150%;
+    background-image: url('background_image/heart-1_white.png'), url('background_image/heart_white.png'), url('background_image/heart-2_white.png');
+    animation: snow 1000s linear infinite;
+    -webkit-animation: snow 1000s linear infinite;
+    -moz-animation: snow 1000s linear infinite;
+    -ms-animation: snow 1000s linear infinite;
+    transform: translate3d(0, 0, 0) scale(1.8);
+    -webkit-transform: translate3d(0, 0, 0) scale(1.8);
+    -moz-transform: translate3d(0, 0, 0) scale(1.8);
+    -ms-transform: translate3d(0, 0, 0) scale(1.8);
+    -o-transform: translate3d(0, 0, 0) scale(1.8);
 }
 @keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
 }
 @-moz-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
 }
 @-webkit-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
 }
 @-ms-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
 }
 /* background animation end */
 
 /* main container start */
 .content-box {
-  position: absolute;
-  top: 45%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  text-align: center;
-  width: 50rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    top: 44.4%;
+    left: 53.5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* main container end */
 /* social icons start */
 .btn a {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 6rem;
-  width: 6rem;
-  font-size: 2.5rem;
-  background: #f0f0f0;
-  padding: 1.5rem;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  margin: 0 1rem;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  text-decoration: none;
-  /* box-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.3); */
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 6rem;
+    font-size: 2.5rem;
+    background: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 1rem;
+    transition: all 0.17s;
+    -webkit-transition: all 0.17s;
+    -moz-transition: all 0.17s;
+    -ms-transition: all 0.17s;
+    -o-transition: all 0.17s;
+    text-decoration: none;
+    box-shadow: 0rem 0rem 1rem rgba(255, 255, 255, 0.3);
 }
 .btn a i {
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
+    transition: all 0.17s;
+    -webkit-transition: all 0.17s;
+    -moz-transition: all 0.17s;
+    -ms-transition: all 0.17s;
+    -o-transition: all 0.17s;
 }
 
 /* change button default color here */
-/* editable code start  */
 .btn-1 i{
-  color: #3f5ea0;
+    color: #3f5ea0;
 }
 .btn-2 i{
-  color: #1c9cea;
+    color: #1c9cea;
 }
 .btn-3 i{
-  color: #f60000;
+    color: #f60000;
 }
 .btn-4 i{
-  color: #6e85d5;
+    color: #6e85d5;
 }
 .btn-5 i{
-  color: #1787b4;
+    color: #1787b4;
 }
 .btn-6 i{
-  color: #8d44f7;
+    color: #8d44f7;
 }
-/* editable code end */
 /* social icons end */
 
 /* tooltip section start*/
 .btn a label {
-  position: absolute;
-  bottom: 50%;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
+    position: absolute;
+    bottom: 50%;
+    transition: all 0.17s;
+    -webkit-transition: all 0.17s;
+    -moz-transition: all 0.17s;
+    -ms-transition: all 0.17s;
+    -o-transition: all 0.17s;
 }
 .btn a span {
-  color: #fff;
-  opacity: 0;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
 }
 .btn a span::after{
-  content: attr(data-link);
-  user-select: auto;
-  -ms-user-select: auto;
-  -webkit-user-select: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  overflow: hidden;
-  height: 3.5rem;
-  width: 3.5rem;
+    content: attr(data-link);
+    user-select: auto;
+    -ms-user-select: auto;
+    -webkit-user-select: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    overflow: hidden;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 /* change tooltip/hover text background color here */
-/* editable code start */
 .btn-1 span::after, .btn-1 span::before{
-  background: #3f5ea0;
+    background: #3f5ea0;
 }
 .btn-2 span::after, .btn-2 span::before{
-  background: #1c9cea;
+    background: #1c9cea;
 }
 .btn-3 span::after, .btn-3 span::before{
-  background: #f60000;
+    background: #f60000;
 }
 .btn-4 span::after, .btn-4 span::before{
-  background: #6e85d5;
+    background: #6e85d5;
 }
 .btn-5 span::after, .btn-5 span::before{
-  background: #1787b4;
+    background: #1787b4;
 }
 .btn-6 span::after, .btn-6 span::before{
-  background: #8d44f7;
+    background: #8d44f7;
 }
-/* editable code end */
 
 /* tooltip arrow  */
 .btn a span::before {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  top: 85%;
-  left: 47.5%;
-  height: 1.5rem;
-  width: 1.5rem;
-  transform:  rotate(45deg) translate(-50%, 0%);
-  -webkit-transform:  rotate(45deg) translate(-50%, 0%);
-  -moz-transform:  rotate(45deg) translate(-50%, 0%);
-  -ms-transform:  rotate(45deg) translate(-50%, 0%);
-  -o-transform:  rotate(45deg) translate(-50%, 0%);
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 85%;
+    left: 47.5%;
+    height: 1.5rem;
+    width: 1.5rem;
+    transform: rotate(45deg) translate(-50%, 0%);
+    -webkit-transform:  rotate(45deg) translate(-50%, 0%);
+    -moz-transform:  rotate(45deg) translate(-50%, 0%);
+    -ms-transform:  rotate(45deg) translate(-50%, 0%);
+    -o-transform:  rotate(45deg) translate(-50%, 0%);
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    z-index: -1;
 }
 
 /* tooltip arrow end */
@@ -227,125 +248,124 @@ html, body {
 
 /* hover effects */
 .btn a:hover span::after {
-  width: 10rem;
+    width: 10rem;
 }
 .btn a:hover span {
-  opacity: 1;
-  color: #fff;
+    opacity: 1;
+    color: #fff;
 }
 .btn a:hover i {
-  color: #fff;
+    color: #fff;
 }
 
 /* change button background color here */
-/* editable code start */
 .btn-1:hover {
-  background: #3f5ea0;
+    background: #3f5ea0;
 }
 .btn-2:hover {
-  background: #1c9cea;
+    background: #1c9cea;
 }
 .btn-3:hover {
-  background: #f60000;
+    background: #f60000;
 }
 .btn-4:hover {
-  background: #6e85d5;
+    background: #6e85d5;
 }
 .btn-5:hover {
-  background: #1787b4;
+    background: #1787b4;
 }
 .btn-6:hover {
-  background: #8d44f7;
+    background: #8d44f7;
 }
-/* editable code end */
+
 .btn a:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 .btn a:hover label {
-  bottom: 120%;
+    bottom: 120%;
 }
 /* hover effect end */
 
 /* css responsive section */
 @media only screen and (max-width: 500px) {
-  html {
-    font-size: 9px;
-  }
+    html {
+        font-size: 9px;
+    }
 }
 @media only screen and (max-width: 450px) {
-  html {
-    font-size: 8px;
-  }
+    html {
+        font-size: 8px;
+    }
 }
 @media only screen and (max-width: 400px) {
-  .responsive {
-    display: inline-block;
-    margin: 3rem 0;
-    width: 45%;
-    transform: scale(1.3)  ;
-    -webkit-transform: scale(1.3)  ;
-    -moz-transform: scale(1.3)  ;
-    -ms-transform: scale(1.3)  ;
-    -o-transform: scale(1.3)  ;
-}
-  .btn a {
-    height: 9rem;
-    width: 9rem;
-    margin-bottom: 7rem;
-    font-size: 4rem;
-  }
-  .content-box {
-    transform: translate(-50%, -50%) scale(0.7)  ;
-    -webkit-transform: translate(-50%, -50%) scale(0.7)  ;
-    -moz-transform: translate(-50%, -50%) scale(0.7)  ;
-    -ms-transform: translate(-50%, -50%) scale(0.7)  ;
-    -o-transform: translate(-50%, -50%) scale(0.7)  ;
-}
-  .btn a span::after {
+    .responsive {
+        display: inline-block;
+        margin: 3rem 0;
+        width: 45%;
+        transform: scale(1.3)  ;
+        -webkit-transform: scale(1.3)  ;
+        -moz-transform: scale(1.3)  ;
+        -ms-transform: scale(1.3)  ;
+        -o-transform: scale(1.3)  ;
+    }
+    .btn a {
+        height: 9rem;
+        width: 9rem;
+        margin-bottom: 7rem;
+        font-size: 4rem;
+    }
+    .content-box {
+        transform: translate(-50%, -50%) scale(0.7)  ;
+        -webkit-transform: translate(-50%, -50%) scale(0.7)  ;
+        -moz-transform: translate(-50%, -50%) scale(0.7)  ;
+        -ms-transform: translate(-50%, -50%) scale(0.7)  ;
+        -o-transform: translate(-50%, -50%) scale(0.7)  ;
+    }
+    .btn a span::after {
     font-size: 2rem;
     padding: 0.75rem 1rem;
-  }
-  .btn a span::before  {
-    top: 95%;
-  }
-  .content-box {
-    height: 100%;
-    width: 100%;
-    /* overflow-y: scroll; */
-    top: 0%;
-    left: 0%;
-    transform: translate(0%, 0%) scale(0.7);
-    -webkit-transform: translate(0%, 0%) scale(0.7);
-    -moz-transform: translate(0%, 0%) scale(0.7);
-    -ms-transform: translate(0%, 0%) scale(0.7);
-    -o-transform: translate(0%, 0%) scale(0.7);
-  }
-  .btn-section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
+    }
+    .btn a span::before  {
+        top: 95%;
+     }
+    .content-box {
+        height: 100%;
+        width: 100%;
+        /* overflow-y: scroll; */
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%) scale(0.7);
+        -webkit-transform: translate(0%, 0%) scale(0.7);
+        -moz-transform: translate(0%, 0%) scale(0.7);
+        -ms-transform: translate(0%, 0%) scale(0.7);
+        -o-transform: translate(0%, 0%) scale(0.7);
+    }
+    .btn-section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);    
+    }
 } 
 @media only screen and (max-width: 360px) {
 
 
 }
 @media only screen and (min-width: 1400px) {
-  .content-box {
-    transform: translate(-50%, -50%) scale(1.5);
-    -webkit-transform: translate(-50%, -50%) scale(1.5);
-    -moz-transform: translate(-50%, -50%) scale(1.5);
-    -ms-transform: translate(-50%, -50%) scale(1.5);
-    -o-transform: translate(-50%, -50%) scale(1.5);
-}
+    .content-box {
+        transform: translate(-50%, -50%) scale(1.5);
+        -webkit-transform: translate(-50%, -50%) scale(1.5);
+        -moz-transform: translate(-50%, -50%) scale(1.5);
+        -ms-transform: translate(-50%, -50%) scale(1.5);
+        -o-transform: translate(-50%, -50%) scale(1.5);
+    }
 }
 /* responsive query end */
